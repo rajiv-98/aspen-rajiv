@@ -1,0 +1,6 @@
+﻿merchant_id,business_name,business_type,address_or_maps_link,contact_person,phone_whatsapp,email,primary_goal,desired_times,average_ticket_try,monthly_promo_budget_band,preferred_benefits
+M001,Incek Corner Coffee (synthetic),Café / Coffee Shop,"İncek, Gölbaşı, Ankara",Deniz A.,DEMO-NO-PHONE,demo-cafe@example.com,Increase traffic during quieter hours,Weekday afternoons,420,"TRY 2,500–5,000",Percentage discount
+M002,Beytepe Table (synthetic),Restaurant,"Beytepe, Çankaya, Ankara",Mert B.,DEMO-NO-PHONE,demo-restaurant@example.com,Attract new customers,Weekday evenings; Weekends,850,"TRY 5,000–7,500",Percentage discount; Fixed-amount discount
+M003,Umitkoy Clean Care (synthetic),Dry Cleaning / Local Services,"Ümitköy, Çankaya, Ankara",Ece C.,DEMO-NO-PHONE,demo-cleaning@example.com,Encourage repeat visits,Anytime,650,"Up to TRY 2,500",Fixed-amount discount
+M004,Cayyolu Motion Studio (synthetic),Fitness / Wellness,"Çayyolu, Çankaya, Ankara",Burak D.,DEMO-NO-PHONE,demo-fitness@example.com,Increase local brand awareness,Weekday mornings; Weekday afternoons,1200,"TRY 7,500–10,000",Complimentary product or service; Open to recommendations
+M005,Golbasi Bakery Lab (synthetic),Café / Coffee Shop,"Gölbaşı, Ankara",Selin E.,DEMO-NO-PHONE,demo-bakery@example.com,Attract new customers,Weekends,,Not sure yet,Open to recommendations

@@ -1,0 +1,14 @@
+﻿field_name,type,sheet / location,example,meaning / constraints,required
+merchant_id,string,01_FORM_SUBMISSIONS,M001,Unique merchant key,Mandatory
+business_name,string,01_FORM_SUBMISSIONS,Incek Sample Coffee,No real business names in synthetic input,Mandatory
+primary_goal,enum,01_FORM_SUBMISSIONS,off_peak,new_customers / repeat_visits / off_peak,Mandatory
+monthly_promo_budget_try_optional,number/null,01_FORM_SUBMISSIONS,3000,Nullable; request review if missing,Optional
+site_id,string,02_SITES,S001,Join demo site/household count,Optional join
+campaign_id,string,06_CAMPAIGNS,C-M001-001,Unique campaign key,Mandatory after approved draft
+discount_pct,decimal,06_CAMPAIGNS,0.10,"0.10 means 10%, not 10",Mandatory
+redemption_cap,integer,06_CAMPAIGNS,50,Must be positive and budget compliant,Mandatory
+redemption_code,string,08_REDEMPTIONS,TEST-1-0001,Single use; not campaign ID,Mandatory
+timestamp_local,datetime,08_REDEMPTIONS,2026-10-12 14:00,Europe/Istanbul local; not UTC,Mandatory
+status,enum,08_REDEMPTIONS,valid,valid / invalid / duplicate,Mandatory
+basket_value_try,number/null,08_REDEMPTIONS,450,"If absent, recorded discount cannot be proven",Optional
+data_status,enum,ALL,synthetic,synthetic / assumed / verified_source,Mandatory

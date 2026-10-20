@@ -1,0 +1,60 @@
+﻿event_id,campaign_id,merchant_id,redemption_code,timestamp_local,status,basket_value_try,data_status,notes
+E0001,C-M001-001,M001,TEST-1-0001,2026-10-12 14:00:00,valid,400,synthetic,test-only accepted
+E0002,C-M001-001,M001,TEST-1-0001,2026-10-12 14:20:00,duplicate,400,synthetic,must not count
+E0003,C-M001-001,M001,TEST-1-0022,2026-10-12 14:29:00,valid,450,synthetic,test-only accepted
+E0004,C-M001-001,M001,TEST-1-0008,2026-10-12 15:49:00,valid,550,synthetic,test-only accepted
+E0005,C-M001-001,M001,TEST-1-0015,2026-10-12 16:39:00,valid,500,synthetic,test-only accepted
+E0006,C-M001-001,M001,TEST-1-0013,2026-10-13 14:25:00,valid,400,synthetic,test-only accepted
+E0007,C-M001-001,M001,TEST-1-0020,2026-10-13 15:15:00,valid,550,synthetic,test-only accepted
+E0008,C-M001-001,M001,TEST-1-0006,2026-10-13 16:35:00,valid,450,synthetic,test-only accepted
+E0009,C-M001-001,M001,TEST-1-0004,2026-10-14 14:21:00,valid,550,synthetic,test-only accepted
+E0010,C-M001-001,M001,TEST-1-0004,2026-10-14 14:41:00,duplicate,550,synthetic,must not count
+E0011,C-M001-001,M001,TEST-1-0011,2026-10-14 15:11:00,valid,500,synthetic,test-only accepted
+E0012,C-M001-001,M001,TEST-1-0018,2026-10-14 16:01:00,valid,450,synthetic,test-only accepted
+E0013,C-M001-001,M001,TEST-1-0016,2026-10-15 14:46:00,valid,550,synthetic,test-only accepted
+E0014,C-M001-001,M001,TEST-1-0002,2026-10-15 15:07:00,valid,450,synthetic,test-only accepted
+E0015,C-M001-001,M001,TEST-1-0009,2026-10-15 16:56:00,valid,400,synthetic,test-only accepted
+E0016,C-M001-001,M001,TEST-1-0007,2026-10-16 14:42:00,valid,500,synthetic,test-only accepted
+E0017,C-M001-001,M001,BAD-0,2026-10-16 15:10:00,invalid,,synthetic,must not count
+E0018,C-M001-001,M001,TEST-1-0014,2026-10-16 15:32:00,valid,450,synthetic,test-only accepted
+E0019,C-M001-001,M001,TEST-1-0021,2026-10-16 16:22:00,valid,400,synthetic,test-only accepted
+E0020,C-M001-001,M001,TEST-1-0019,2026-10-17 14:08:00,valid,500,synthetic,test-only accepted
+E0021,C-M001-001,M001,TEST-1-0005,2026-10-17 15:28:00,valid,400,synthetic,test-only accepted
+E0022,C-M001-001,M001,TEST-1-0012,2026-10-17 16:18:00,valid,550,synthetic,test-only accepted
+E0023,C-M001-001,M001,TEST-1-0010,2026-10-18 14:04:00,valid,450,synthetic,test-only accepted
+E0024,C-M001-001,M001,TEST-1-0017,2026-10-18 15:53:00,valid,400,synthetic,test-only accepted
+E0025,C-M001-001,M001,TEST-1-0003,2026-10-18 16:14:00,valid,500,synthetic,test-only accepted
+E0026,C-M002-001,M002,TEST-2-0010,2026-10-12 14:05:00,valid,550,synthetic,test-only accepted
+E0027,C-M002-001,M002,TEST-2-0017,2026-10-12 15:54:00,valid,500,synthetic,test-only accepted
+E0028,C-M002-001,M002,TEST-2-0003,2026-10-12 16:15:00,valid,600,synthetic,test-only accepted
+E0029,C-M002-001,M002,TEST-2-0001,2026-10-13 14:01:00,valid,500,synthetic,test-only accepted
+E0030,C-M002-001,M002,TEST-2-0001,2026-10-13 14:21:00,duplicate,500,synthetic,must not count
+E0031,C-M002-001,M002,TEST-2-0008,2026-10-13 15:50:00,valid,650,synthetic,test-only accepted
+E0032,C-M002-001,M002,TEST-2-0015,2026-10-13 16:40:00,valid,600,synthetic,test-only accepted
+E0033,C-M002-001,M002,TEST-2-0013,2026-10-14 14:26:00,valid,500,synthetic,test-only accepted
+E0034,C-M002-001,M002,TEST-2-0006,2026-10-14 16:36:00,valid,550,synthetic,test-only accepted
+E0035,C-M002-001,M002,TEST-2-0004,2026-10-15 14:22:00,valid,650,synthetic,test-only accepted
+E0036,C-M002-001,M002,TEST-2-0004,2026-10-15 14:42:00,duplicate,650,synthetic,must not count
+E0037,C-M002-001,M002,TEST-2-0011,2026-10-15 15:12:00,valid,600,synthetic,test-only accepted
+E0038,C-M002-001,M002,TEST-2-0016,2026-10-16 14:47:00,valid,650,synthetic,test-only accepted
+E0039,C-M002-001,M002,TEST-2-0002,2026-10-16 15:08:00,valid,550,synthetic,test-only accepted
+E0040,C-M002-001,M002,BAD-1,2026-10-16 15:10:00,invalid,,synthetic,must not count
+E0041,C-M002-001,M002,TEST-2-0009,2026-10-16 16:57:00,valid,500,synthetic,test-only accepted
+E0042,C-M002-001,M002,TEST-2-0007,2026-10-17 14:43:00,valid,600,synthetic,test-only accepted
+E0043,C-M002-001,M002,TEST-2-0014,2026-10-17 15:33:00,valid,550,synthetic,test-only accepted
+E0044,C-M002-001,M002,TEST-2-0005,2026-10-18 15:29:00,valid,500,synthetic,test-only accepted
+E0045,C-M002-001,M002,TEST-2-0012,2026-10-18 16:19:00,valid,650,synthetic,test-only accepted
+E0046,C-M003-001,M003,TEST-3-0005,2026-10-12 15:30:00,valid,650,synthetic,test-only accepted
+E0047,C-M003-001,M003,TEST-3-0010,2026-10-13 14:06:00,valid,700,synthetic,test-only accepted
+E0048,C-M003-001,M003,TEST-3-0003,2026-10-13 16:16:00,valid,750,synthetic,test-only accepted
+E0049,C-M003-001,M003,TEST-3-0001,2026-10-14 14:02:00,valid,650,synthetic,test-only accepted
+E0050,C-M003-001,M003,TEST-3-0001,2026-10-14 14:22:00,duplicate,650,synthetic,must not count
+E0051,C-M003-001,M003,TEST-3-0008,2026-10-14 15:51:00,valid,800,synthetic,test-only accepted
+E0052,C-M003-001,M003,TEST-3-0006,2026-10-15 16:37:00,valid,700,synthetic,test-only accepted
+E0053,C-M003-001,M003,TEST-3-0004,2026-10-16 14:23:00,valid,800,synthetic,test-only accepted
+E0054,C-M003-001,M003,TEST-3-0004,2026-10-16 14:43:00,duplicate,800,synthetic,must not count
+E0055,C-M003-001,M003,BAD-2,2026-10-16 15:10:00,invalid,,synthetic,must not count
+E0056,C-M003-001,M003,TEST-3-0011,2026-10-16 15:13:00,valid,750,synthetic,test-only accepted
+E0057,C-M003-001,M003,TEST-3-0002,2026-10-17 15:09:00,valid,700,synthetic,test-only accepted
+E0058,C-M003-001,M003,TEST-3-0009,2026-10-17 16:58:00,valid,650,synthetic,test-only accepted
+E0059,C-M003-001,M003,TEST-3-0007,2026-10-18 14:44:00,valid,750,synthetic,test-only accepted

@@ -1,0 +1,4 @@
+﻿campaign_id,merchant_id,verified_uses,duplicate_attempts,invalid_attempts,recorded_eligible_basket_try,discount_pct,max_uses,remaining_uses,recorded_discount_try,usage_of_cap,interpretation
+C-M001-001,M001,22,2,1,10350,0.1,50,28,1035,0.44,Verified redemptions only; recorded basket totals do not demonstrate incremental sales or unique customers
+C-M002-001,M002,17,2,1,9700,0.1,45,28,970,0.37777777777777777,Verified redemptions only; recorded basket totals do not demonstrate incremental sales or unique customers
+C-M003-001,M003,11,2,1,7900,0.1,25,14,790,0.44,Verified redemptions only; recorded basket totals do not demonstrate incremental sales or unique customers

@@ -1,0 +1,7 @@
+﻿campaign_id,merchant_id,goal,discount_pct,min_spend_try,redemption_cap,budget_try,valid_from,valid_until,eligible_window,status,review_notes
+C-M001-001,M001,off_peak,0.1,400,50,3000,2026-10-12,2026-11-12,Mon-Fri 14:00-17:00,DRAFT,TRY 60 maximum discount per redemption
+C-M002-001,M002,new_customers,0.1,500,45,5500,2026-10-12,2026-11-12,Everyday 12:00-21:00,DRAFT,New-customer claim requires identity check; sample events cannot verify
+C-M003-001,M003,repeat_visits,0.1,400,25,1600,2026-10-12,2026-11-12,Mon-Sat 09:00-18:00,DRAFT,Repeat-visit measurement needs repeat-user IDs; cannot infer from event-only ledger
+C-M004-001,M004,new_customers,0.1,300,20,2500,2026-10-12,2026-11-12,Mon-Fri 11:00-17:00,DRAFT,Fitness free trial unsupported by percentage-only v1; recommend admin review
+C-M005-001,M005,off_peak,0.1,300,20,,2026-10-12,2026-11-12,Mon-Fri 13:00-16:00,DRAFT,Missing budget flagged
+C-M006-001,M006,repeat_visits,0.15,500,50,1000,2026-10-12,2026-11-12,Mon-Sat 11:00-18:00,DRAFT,Intentional budget conflict vs bounded exposure 50*60=3000
